@@ -1,11 +1,11 @@
-# GitHub Action JWT generator
+# GitHub Actions JWT generator
 
-Do you want to send an HTTP request using HTTPie or CURL with a signed JWT token and wondering how you can create the token for a given token and secret? Well, look no further!
+Do you want to send an HTTP request using HTTPie or CURL with a signed JWT token and wondering how you can create the token for a given payload and secret? Well, look no further!
 
 ## Installation
 ```yaml
 - name: JWT Generator
-  uses: morzzz007/github-actions-jwt-generator@1.0.0
+  uses: morzzz007/github-actions-jwt-generator@1.0.1
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ jobs:
     steps:
       - name: JWT Generator
         id: jwtGenerator
-        uses: morzzz007/github-actions-jwt-generator@1.0.0
+        uses: morzzz007/github-actions-jwt-generator@1.0.1
         with:
           secret: topsecret
           payload: '{"hello":"world"}'
