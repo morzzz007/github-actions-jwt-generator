@@ -7,7 +7,7 @@ async function run() {
     const payload = core.getInput('payload');
     const token = jwt.sign(payload, secret);
 
-    core.setOutput('jwtToken', token);
+    core.setOutput('token', token);
   } catch (error) {
     core.setFailed(error.message);
   }

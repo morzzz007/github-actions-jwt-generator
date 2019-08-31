@@ -7,7 +7,7 @@ inputs:
   payload:
     description: 'The payload to encrypt'
 outputs:
-  jwtToken:
+  token:
     description: 'Generated JWT Token'
 runs:
   using: 'node12'
