@@ -1,9 +1,7 @@
-# JavaScript Action Template
+# GitHub Action JWT generator
 
-This template offers an easy way to get started writing a JavaScript action with TypeScript compile time support, unit testing with Jest and using the GitHub Actions Toolkit.
+Do you want to send an HTTP request using HTTPie or CURL with a signed JWT token and wondering how you can create the token for a given token and secret? Well, look no further!
 
-## Getting Started
+## Installation
 
-See the walkthrough located [here](https://github.com/actions/toolkit/blob/master/docs/javascript-action.md).
-
-In addition to walking your through how to create an action, it also provides strategies for versioning, releasing and referencing your actions.
+## Usage

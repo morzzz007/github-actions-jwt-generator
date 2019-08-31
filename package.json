@@ -1,8 +1,8 @@
 {
-  "name": "node12-template-action",
+  "name": "github-actions-jwt-generator",
   "version": "0.0.0",
   "private": true,
-  "description": "Node 12 template action",
+  "description": "GitHub Actions JWT Generator",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -10,24 +10,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-template.git"
+    "url": "git+https://github.com:morzzz007/github-actions-jwt-generator.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "GitHub",
+  "author": "Marton Papp <morz@morz.hu>",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.0.0"
+    "@actions/core": "1.0.0",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.13",
-    "@types/node": "^12.0.4",
-    "jest": "^24.8.0",
-    "jest-circus": "^24.7.1",
-    "ts-jest": "^24.0.2",
-    "typescript": "^3.5.1"
+    "@types/jest": "24.0.13",
+    "@types/node": "12.0.4",
+    "jest": "24.8.0",
+    "jest-circus": "24.7.1",
+    "ts-jest": "24.0.2",
+    "typescript": "3.5.1"
   }
 }
