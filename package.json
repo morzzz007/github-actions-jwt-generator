@@ -20,7 +20,7 @@
   "author": "Marton Papp <morz@morz.hu>",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "1.0.0",
+    "@actions/core": "1.2.6",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
